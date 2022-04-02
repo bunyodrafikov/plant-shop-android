@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="OutlinedRoundedBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded
+        </item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="endIconDrawable">@drawable/ic_search</item>
+        <item name="endIconMode">custom</item>
+        <item name="hintEnabled">false</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">42dp</item>
+    </style>
+
+    <style name="FacebookLoginButton">
+        <item name="srcCompat">@drawable/ic_facebook</item>
+        <item name="android:background">@drawable/category_bg</item>
+        <item name="android:backgroundTint">@color/btn_bg</item>
+    </style>
+
+</resources>

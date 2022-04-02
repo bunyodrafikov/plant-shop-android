@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "163899944400",
+    "project_id": "brafplantshop",
+    "storage_bucket": "brafplantshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163899944400:android:a4d29cb59240bbfa1e5dd5",
+        "android_client_info": {
+          "package_name": "com.brafik.brafshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163899944400-imp72t7jj4mgeqdfiochloavncl1ire1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brafik.brafshop",
+            "certificate_hash": "3f2a115dec4f73b36b9380cfb31745be3e6bc42a"
+          }
+        },
+        {
+          "client_id": "163899944400-6bjnplg5mqopl1na7lptehor5n9i838b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCaJ_Pcj9LDuYKo5gWQuRStx1DZmZKR8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163899944400-6bjnplg5mqopl1na7lptehor5n9i838b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

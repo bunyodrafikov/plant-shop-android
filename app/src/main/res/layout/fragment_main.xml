@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp"
+    android:background="@color/primary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/menuButtonInMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_menu" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/hello"
+            android:textColor="#0F0E0E"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/menuButtonInMain" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/search"
+            style="@style/OutlinedRoundedBox"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/search"
+                android:inputType="textCapWords"
+                android:maxLines="1"
+                android:paddingStart="24dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="20dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_layout"
+            android:paddingBottom="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/search"
+            tools:layout_editor_absoluteY="249dp">
+
+            <TextView
+                android:id="@+id/categoryTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp"
+                android:text="@string/categories"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:id="@+id/categoryButtons"
+                android:layout_width="333dp"
+                android:layout_height="98.55dp"
+                android:layout_below="@id/categoryTextView"
+                android:layout_centerHorizontal="true">
+
+                <RelativeLayout
+                    android:id="@+id/leafButton"
+                    android:layout_width="98.55dp"
+                    android:layout_height="98.55dp"
+                    android:layout_marginEnd="18dp"
+                    android:background="@drawable/focused_category_bg"
+                    android:clickable="true"
+                    android:paddingVertical="20dp">
+
+                    <ImageView
+                        android:id="@+id/leafImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_leaf" />
+
+                    <TextView
+                        android:id="@+id/leafTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/leafImg"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/leaf"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/flowersButton"
+                    android:layout_width="98.55dp"
+                    android:layout_height="98.55dp"
+                    android:layout_marginEnd="18dp"
+                    android:background="@drawable/category_bg"
+                    android:clickable="true"
+                    android:paddingVertical="20dp">
+
+                    <ImageView
+                        android:id="@+id/flowersImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_flowers" />
+
+                    <TextView
+                        android:id="@+id/flowersTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/flowersImg"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/flowers"
+                        android:textAlignment="center"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/succulentsButton"
+                    android:layout_width="98.55dp"
+                    android:layout_height="98.55dp"
+                    android:background="@drawable/category_bg"
+                    android:clickable="true"
+                    android:paddingVertical="15dp">
+
+                    <ImageView
+                        android:id="@+id/succulentsImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/ic_succulents" />
+
+                    <TextView
+                        android:id="@+id/succulentsTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/succulentsImg"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/succulents"
+                        android:textAlignment="center"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/recommendedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/categoryButtons"
+                android:layout_alignParentStart="true"
+                android:layout_margin="24dp"
+                android:text="@string/recommended_res"
+                android:textSize="22sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/mainRecycleView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recommendedTextView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="24dp"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/main_recommendations_item" />
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

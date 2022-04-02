@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Plant Shop</string>
+    <string name="hello">Hello! </string>
+    <string name="search">Search</string>
+    <string name="categories">Categories</string>
+    <string name="leaf">Leaf Plants</string>
+    <string name="flowers">Flowers</string>
+    <string name="succulents">Succulents</string>
+    <string name="recommended_res">Recommended</string>
+    <string name="plant_title">Sansevieria Plant</string>
+    <string name="plant_price">15$</string>
+    <string name="plant_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="plant_count">1</string>
+    <string name="recommendations_str">Chose your favourite pots</string>
+    <string name="buy_text">Buy now</string>
+    <string name="password_res">Password</string>
+    <string name="forgot_password_res">Forgot password?</string>
+    <string name="register_res">Register</string>
+    <string name="mail_or_phone">Mail or Phone Number</string>
+    <string name="name_res">Name</string>
+    <string name="login_res">Login</string>
+    <string name="plantimage">plantImage</string>
+    <string name="category_title">Some Category</string>
+    <string name="found_plants">Found Plants</string>
+    <string name="order_details">Order Details</string>
+    <string name="go_to_payment">Go to Payment</string>
+    <string name="last_name_res">Last Name</string>
+    <string name="country">Country</string>
+    <string name="town">Town/City</string>
+    <string name="address">Address</string>
+    <string name="index">Index / ZIP code</string>
+    <string name="amount">Amount</string>
+    <string name="back_button">back_button</string>
+    <string name="avatar">avatar</string>
+    <string name="plant_image">plant_image</string>
+    <string name="payments_show_name" translatable="false">Successfully received payment data for %s!</string>
+    <string name="googlepay_status_unavailable" translatable="false">Unfortunately, Google Pay is not available on this phone.</string>
+    <string name="googlepay_status_checking" translatable="false">Checking if Google Pay is available...</string>
+    <string name="error">Error</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nothing_found">Nothing was found</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="main">Main</string>
+    <string name="account">Account</string>
+    <string name="sign_out">Sign Out</string>
+</resources>

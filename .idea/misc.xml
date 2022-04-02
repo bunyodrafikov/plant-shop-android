@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.131" />
+        <entry key="app/src/main/res/drawable/bg_layout.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/button_bg.xml" value="0.2015" />
+        <entry key="app/src/main/res/drawable/category_bg.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/category_bg_layout.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/focused_category.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/focused_category_bg.xml" value="0.2015" />
+        <entry key="app/src/main/res/drawable/gpay_content.xml" value="0.2015" />
+        <entry key="app/src/main/res/drawable/ic__123025_logo_google_g_icon.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_baseline_indeterminate_check_box_24.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_error.xml" value="0.131" />
+        <entry key="app/src/main/res/drawable/ic_facebook.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_flower.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_flowers.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_google.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_google_pay_logo_wine.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.131" />
+        <entry key="app/src/main/res/drawable/ic_loader.xml" value="0.12772698974609376" />
+        <entry key="app/src/main/res/drawable/ic_loading.xml" value="0.1165" />
+        <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.131" />
+        <entry key="app/src/main/res/drawable/ic_minus_copy.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_succulents.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.131" />
+        <entry key="app/src/main/res/layout/activity_content.xml" value="0.23494129669971958" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2338241577148438" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.21153846153846154" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/app_bar_main2.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/card.xml" value="0.5005157470703125" />
+        <entry key="app/src/main/res/layout/card_details.xml" value="0.2206604003906249" />
+        <entry key="app/src/main/res/layout/category_list_item.xml" value="0.21153846153846154" />
+        <entry key="app/src/main/res/layout/content_main2.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/details_recommendations_item.xml" value="0.6719922579251804" />
+        <entry key="app/src/main/res/layout/fragment_card.xml" value="0.1888916015625" />
+        <entry key="app/src/main/res/layout/fragment_category.xml" value="0.22820129394531252" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.26580329308143047" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_order.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.23876698811848956" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.21153846153846154" />
+        <entry key="app/src/main/res/layout/main_card_item.xml" value="0.21153846153846154" />
+        <entry key="app/src/main/res/layout/main_recommendations_item.xml" value="0.21153846153846154" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.2916722615559896" />
+        <entry key="app/src/main/res/layout/nav_header_main2.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.5354489839993991" />
+        <entry key="app/src/main/res/menu/drawer_menu.xml" value="0.32796936035156254" />
+        <entry key="app/src/main/res/menu/main_activity2.xml" value="0.39828467735877404" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.335" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

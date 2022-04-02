@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="25dp">
+
+
+    <ImageView
+        android:id="@+id/plantImage"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/plantimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="46dp"
+        android:background="@color/transparent"
+        android:contentDescription="@string/buy_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back"
+        tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/plant_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="27dp"
+            android:fontFamily="@font/semibold"
+            android:text="@string/plant_title"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/plant_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="17dp"
+            android:fontFamily="@font/semibold"
+            android:text="@string/plant_price"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/plant_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plant_title"
+            android:layout_marginStart="20.59dp"
+            android:layout_marginTop="13.51dp"
+            android:layout_marginEnd="46.6dp"
+            android:fontFamily="@font/regular"
+            android:text="@string/plant_description"
+            android:textSize="12sp"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/minus_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plant_description"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25.8dp"
+            android:background="@color/transparent"
+            android:contentDescription="@string/plant_count"
+            android:src="@drawable/ic_minus"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plant_description"
+            android:layout_marginHorizontal="13dp"
+            android:layout_marginTop="25.8dp"
+            android:layout_toEndOf="@id/minus_count"
+            android:text="@string/plant_count"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/plus_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plant_description"
+            android:layout_marginTop="25.8dp"
+            android:layout_toEndOf="@id/count"
+            android:background="@color/transparent"
+            android:contentDescription="@string/plant_count"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/ic_plus"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+        <RelativeLayout
+            android:id="@+id/buyButton"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_below="@id/plus_count"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_bg"
+            android:backgroundTint="#F7E652"
+            android:fontFamily="@font/semibold"
+            android:textColor="@color/primaryText"
+            android:textSize="18sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:duplicateParentState="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/gpay_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
